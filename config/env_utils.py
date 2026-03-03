@@ -1,0 +1,28 @@
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv(override=True)
+
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+OPENAI_BASE_URL = os.getenv('OPENAI_BASE_URL')
+
+DASHSCOPE_API_KEY = os.getenv('DASHSCOPE_API_KEY')
+DASHSCOPE_BASE_URL = os.getenv('DASHSCOPE_BASE_URL')
+
+MINIMAX_API_KEY = os.getenv('MINIMAX_API_KEY')
+MINIMAX_BASE_URL = os.getenv('MINIMAX_BASE_URL')
+
+ALIBABA_API_KEY = os.getenv('ALIBABA_API_KEY')
+ALIBABA_BASE_URL = os.getenv('ALIBABA_BASE_URL')
+
+DEEPSEEK_API_KEY = os.getenv('DEEPSEEK_API_KEY')
+
+K2_API_KEY = os.getenv('K2_API_KEY')
+K2_BASE_URL = os.getenv('K2_BASE_URL')
+
+ZHIPU_API_KEY = os.getenv('ZHIPU_API_KEY')
+ZHIPU_BASE_URL = os.getenv('ZHIPU_BASE_URL')
+ZHIPU_TRANSCIPTIONS_URL = os.getenv('ZHIPU_TRANSCIPTIONS_URL')
+
+LOCAL_BASE_URL = os.getenv('LOCAL_BASE_URL')
