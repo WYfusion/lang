@@ -7,7 +7,7 @@ if str(PROJECT_ROOT) not in sys.path:
 # 设置stdout为UTF-8编码
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-from config.env_utils import ALIBABA_API_KEY, ALIBABA_BASE_URL
+from env_utils import ALIBABA_API_KEY, ALIBABA_BASE_URL
 from langchain.chat_models import init_chat_model
 
 model = init_chat_model(

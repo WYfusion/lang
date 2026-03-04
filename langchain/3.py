@@ -8,7 +8,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from config.env_utils import ALIBABA_API_KEY
+from env_utils import ALIBABA_API_KEY
 
 
 # 设置stdout为UTF-8编码
